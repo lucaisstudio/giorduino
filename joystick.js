@@ -24,10 +24,9 @@ board.on("ready", function() {
     console.log("  y : ", this.y);
     console.log("--------------------------------------");
   });
-  if (this.y < 0){
-    servo.max();
-  }
-  else if (this.y = 0){
+  if (this.y = 0){
     servo.min();
+    else (this.y < 0){
+      servo.max();
   }
 });
