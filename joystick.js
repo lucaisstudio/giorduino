@@ -26,6 +26,7 @@ board.on("ready", function() {
   });
   if (this.y = 0){
     servo.min();
+  }
     else if(this.y < 0){
       servo.max();
   }
