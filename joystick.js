@@ -25,6 +25,9 @@ board.on("ready", function() {
     console.log("--------------------------------------");
   });
   if (this.y < 0){
-    servo.sweep();
+    servo.max();
+  }
+  else if (this.y = 0){
+    servo.min();
   }
 });
